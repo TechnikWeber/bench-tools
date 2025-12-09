@@ -1,0 +1,9 @@
+C:\Users\Phili\source\repos\PowerSupplyControl\PowerSupplyControl\obj\Debug\PowerSupplyControl.csproj.AssemblyReference.cache
+C:\Users\Phili\source\repos\PowerSupplyControl\PowerSupplyControl\obj\Debug\PowerSupplyControl.Properties.Resources.resources
+C:\Users\Phili\source\repos\PowerSupplyControl\PowerSupplyControl\obj\Debug\PowerSupplyControl.csproj.GenerateResource.cache
+C:\Users\Phili\source\repos\PowerSupplyControl\PowerSupplyControl\obj\Debug\PowerSupplyControl.csproj.CoreCompileInputs.cache
+C:\Users\Phili\source\repos\PowerSupplyControl\PowerSupplyControl\bin\Debug\PowerSupplyControl.exe.config
+C:\Users\Phili\source\repos\PowerSupplyControl\PowerSupplyControl\bin\Debug\PowerSupplyControl.exe
+C:\Users\Phili\source\repos\PowerSupplyControl\PowerSupplyControl\bin\Debug\PowerSupplyControl.pdb
+C:\Users\Phili\source\repos\PowerSupplyControl\PowerSupplyControl\obj\Debug\PowerSupplyControl.exe
+C:\Users\Phili\source\repos\PowerSupplyControl\PowerSupplyControl\obj\Debug\PowerSupplyControl.pdb

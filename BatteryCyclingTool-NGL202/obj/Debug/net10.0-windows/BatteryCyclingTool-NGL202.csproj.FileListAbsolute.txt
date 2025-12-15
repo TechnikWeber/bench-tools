@@ -1,0 +1,14 @@
+C:\Users\pweber\source\repos\BatteryCyclingTool-NGL202\BatteryCyclingTool-NGL202\bin\Debug\net10.0-windows\BatteryCyclingTool-NGL202.exe
+C:\Users\pweber\source\repos\BatteryCyclingTool-NGL202\BatteryCyclingTool-NGL202\bin\Debug\net10.0-windows\BatteryCyclingTool-NGL202.deps.json
+C:\Users\pweber\source\repos\BatteryCyclingTool-NGL202\BatteryCyclingTool-NGL202\bin\Debug\net10.0-windows\BatteryCyclingTool-NGL202.runtimeconfig.json
+C:\Users\pweber\source\repos\BatteryCyclingTool-NGL202\BatteryCyclingTool-NGL202\bin\Debug\net10.0-windows\BatteryCyclingTool-NGL202.dll
+C:\Users\pweber\source\repos\BatteryCyclingTool-NGL202\BatteryCyclingTool-NGL202\bin\Debug\net10.0-windows\BatteryCyclingTool-NGL202.pdb
+C:\Users\pweber\source\repos\BatteryCyclingTool-NGL202\BatteryCyclingTool-NGL202\obj\Debug\net10.0-windows\BatteryCyclingTool-NGL202.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pweber\source\repos\BatteryCyclingTool-NGL202\BatteryCyclingTool-NGL202\obj\Debug\net10.0-windows\BatteryCyclingTool-NGL202.AssemblyInfoInputs.cache
+C:\Users\pweber\source\repos\BatteryCyclingTool-NGL202\BatteryCyclingTool-NGL202\obj\Debug\net10.0-windows\BatteryCyclingTool-NGL202.AssemblyInfo.cs
+C:\Users\pweber\source\repos\BatteryCyclingTool-NGL202\BatteryCyclingTool-NGL202\obj\Debug\net10.0-windows\BatteryCyclingTool-NGL202.csproj.CoreCompileInputs.cache
+C:\Users\pweber\source\repos\BatteryCyclingTool-NGL202\BatteryCyclingTool-NGL202\obj\Debug\net10.0-windows\BatteryCyclingTool-NGL202.dll
+C:\Users\pweber\source\repos\BatteryCyclingTool-NGL202\BatteryCyclingTool-NGL202\obj\Debug\net10.0-windows\refint\BatteryCyclingTool-NGL202.dll
+C:\Users\pweber\source\repos\BatteryCyclingTool-NGL202\BatteryCyclingTool-NGL202\obj\Debug\net10.0-windows\BatteryCyclingTool-NGL202.pdb
+C:\Users\pweber\source\repos\BatteryCyclingTool-NGL202\BatteryCyclingTool-NGL202\obj\Debug\net10.0-windows\BatteryCyclingTool-NGL202.genruntimeconfig.cache
+C:\Users\pweber\source\repos\BatteryCyclingTool-NGL202\BatteryCyclingTool-NGL202\obj\Debug\net10.0-windows\ref\BatteryCyclingTool-NGL202.dll

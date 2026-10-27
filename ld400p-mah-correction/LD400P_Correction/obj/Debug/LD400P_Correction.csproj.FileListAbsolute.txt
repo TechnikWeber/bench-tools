@@ -1,9 +1,0 @@
-C:\Users\pweber\source\repos\LD400P_Correction\LD400P_Correction\bin\Debug\LD400P_Correction.exe.config
-C:\Users\pweber\source\repos\LD400P_Correction\LD400P_Correction\bin\Debug\LD400P_Correction.exe
-C:\Users\pweber\source\repos\LD400P_Correction\LD400P_Correction\bin\Debug\LD400P_Correction.pdb
-C:\Users\pweber\source\repos\LD400P_Correction\LD400P_Correction\obj\Debug\LD400P_Correction.csproj.AssemblyReference.cache
-C:\Users\pweber\source\repos\LD400P_Correction\LD400P_Correction\obj\Debug\LD400P_Correction.Properties.Resources.resources
-C:\Users\pweber\source\repos\LD400P_Correction\LD400P_Correction\obj\Debug\LD400P_Correction.csproj.GenerateResource.cache
-C:\Users\pweber\source\repos\LD400P_Correction\LD400P_Correction\obj\Debug\LD400P_Correction.csproj.CoreCompileInputs.cache
-C:\Users\pweber\source\repos\LD400P_Correction\LD400P_Correction\obj\Debug\LD400P_Correction.exe
-C:\Users\pweber\source\repos\LD400P_Correction\LD400P_Correction\obj\Debug\LD400P_Correction.pdb

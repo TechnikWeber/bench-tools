@@ -1,0 +1,66 @@
+# Builds every tool on a Windows machine at GitHub and attaches the .exe files
+# to a release. Runs when a version tag (v1.2.3) is pushed, or by hand from the
+# Actions tab (then the files only end up as a downloadable build artifact).
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: microsoft/setup-msbuild@v2
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Build the .NET Framework 4.7.2 tools
+        shell: pwsh
+        run: |
+          $tools = @{
+            'cpx400-control'          = 'cpx400-control/PowerSupplyControl/PowerSupplyControl.csproj'
+            'cpx400-control-advanced' = 'cpx400-control-advanced/PowerSupplyControlAdvanced/PowerSupplyControlAdvanced.csproj'
+            'ld400p-mah-correction'   = 'ld400p-mah-correction/LD400P_Correction/LD400P_Correction.csproj'
+            'cpx400dp-ld400p-switch'  = 'cpx400dp-ld400p-switch/CPX400DP_AND_LD400D/CPX400DP_AND_LD400D.csproj'
+            'cpx400dp-ld400p-cycling' = 'cpx400dp-ld400p-cycling/LD400P_ONOFF/LD400P_ONOFF.csproj'
+          }
+          New-Item -ItemType Directory -Force dist | Out-Null
+          foreach ($name in $tools.Keys) {
+            $out = "build/$name/"
+            msbuild $tools[$name] /p:Configuration=Release /p:OutputPath=$out /v:minimal
+            if ($LASTEXITCODE -ne 0) { exit 1 }
+            $exe = Get-ChildItem (Join-Path (Split-Path $tools[$name]) $out) -Filter *.exe | Select-Object -First 1
+            Copy-Item $exe.FullName "dist/$name.exe"
+          }
+
+      - name: Build the .NET 10 tools
+        shell: pwsh
+        run: |
+          dotnet publish ngl202-battery-cycling/BatteryCyclingTool-NGL202/BatteryCyclingTool-NGL202.csproj `
+            -c Release -r win-x64 --self-contained false -p:PublishSingleFile=true -o build/ngl202
+          if ($LASTEXITCODE -ne 0) { exit 1 }
+          Copy-Item build/ngl202/BatteryCyclingTool-NGL202.exe dist/ngl202-battery-cycling.exe
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bench-tools
+          path: dist/*.exe
+
+      - name: Attach to the release
+        if: startsWith(github.ref, 'refs/tags/')
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view $env:GITHUB_REF_NAME 2>$null
+          if ($LASTEXITCODE -ne 0) {
+            gh release create $env:GITHUB_REF_NAME --title $env:GITHUB_REF_NAME --notes-file RELEASE_NOTES.md
+          }
+          gh release upload $env:GITHUB_REF_NAME (Get-ChildItem dist/*.exe) --clobber

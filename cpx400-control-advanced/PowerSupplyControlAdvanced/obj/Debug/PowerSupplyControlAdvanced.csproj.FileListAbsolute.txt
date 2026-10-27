@@ -1,9 +1,0 @@
-C:\Users\Phili\source\repos\PowerSupplyControlAdvanced\PowerSupplyControlAdvanced\obj\Debug\PowerSupplyControlAdvanced.csproj.AssemblyReference.cache
-C:\Users\Phili\source\repos\PowerSupplyControlAdvanced\PowerSupplyControlAdvanced\obj\Debug\PowerSupplyControlAdvanced.Properties.Resources.resources
-C:\Users\Phili\source\repos\PowerSupplyControlAdvanced\PowerSupplyControlAdvanced\obj\Debug\PowerSupplyControlAdvanced.csproj.GenerateResource.cache
-C:\Users\Phili\source\repos\PowerSupplyControlAdvanced\PowerSupplyControlAdvanced\obj\Debug\PowerSupplyControlAdvanced.csproj.CoreCompileInputs.cache
-C:\Users\Phili\source\repos\PowerSupplyControlAdvanced\PowerSupplyControlAdvanced\bin\Debug\PowerSupplyControlAdvanced.exe.config
-C:\Users\Phili\source\repos\PowerSupplyControlAdvanced\PowerSupplyControlAdvanced\bin\Debug\PowerSupplyControlAdvanced.exe
-C:\Users\Phili\source\repos\PowerSupplyControlAdvanced\PowerSupplyControlAdvanced\bin\Debug\PowerSupplyControlAdvanced.pdb
-C:\Users\Phili\source\repos\PowerSupplyControlAdvanced\PowerSupplyControlAdvanced\obj\Debug\PowerSupplyControlAdvanced.exe
-C:\Users\Phili\source\repos\PowerSupplyControlAdvanced\PowerSupplyControlAdvanced\obj\Debug\PowerSupplyControlAdvanced.pdb

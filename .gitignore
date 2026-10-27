@@ -1,0 +1,7 @@
+# Build output (the .exe files are attached to GitHub releases instead)
+bin/
+obj/
+.vs/
+*.user
+*.exe
+dist/

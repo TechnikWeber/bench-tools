@@ -15,9 +15,9 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: microsoft/setup-msbuild@v2
-      - uses: actions/setup-dotnet@v4
+      - uses: actions/setup-dotnet@v5
         with:
           dotnet-version: '10.0.x'
 
@@ -48,7 +48,7 @@ jobs:
           if ($LASTEXITCODE -ne 0) { exit 1 }
           Copy-Item build/ngl202/BatteryCyclingTool-NGL202.exe dist/ngl202-battery-cycling.exe
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: bench-tools
           path: dist/*.exe

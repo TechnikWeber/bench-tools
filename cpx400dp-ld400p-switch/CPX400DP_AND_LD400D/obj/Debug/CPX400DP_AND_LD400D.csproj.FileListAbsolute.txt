@@ -1,0 +1,10 @@
+C:\Users\pweber\source\repos\CPX400DP_AND_LD400D\CPX400DP_AND_LD400D\obj\Debug\CPX400DP_AND_LD400D.csproj.AssemblyReference.cache
+C:\Users\pweber\source\repos\CPX400DP_AND_LD400D\CPX400DP_AND_LD400D\obj\Debug\CPX400DP_AND_LD400D.Properties.Resources.resources
+C:\Users\pweber\source\repos\CPX400DP_AND_LD400D\CPX400DP_AND_LD400D\obj\Debug\CPX400DP_AND_LD400D.csproj.GenerateResource.cache
+C:\Users\pweber\source\repos\CPX400DP_AND_LD400D\CPX400DP_AND_LD400D\obj\Debug\CPX400DP_AND_LD400D.csproj.CoreCompileInputs.cache
+C:\Users\pweber\source\repos\CPX400DP_AND_LD400D\CPX400DP_AND_LD400D\obj\Debug\CPX400DP_AND_LD400D.Form1.resources
+C:\Users\pweber\source\repos\CPX400DP_AND_LD400D\CPX400DP_AND_LD400D\bin\Debug\CPX400DP_AND_LD400D.exe.config
+C:\Users\pweber\source\repos\CPX400DP_AND_LD400D\CPX400DP_AND_LD400D\bin\Debug\CPX400DP_AND_LD400D.exe
+C:\Users\pweber\source\repos\CPX400DP_AND_LD400D\CPX400DP_AND_LD400D\bin\Debug\CPX400DP_AND_LD400D.pdb
+C:\Users\pweber\source\repos\CPX400DP_AND_LD400D\CPX400DP_AND_LD400D\obj\Debug\CPX400DP_AND_LD400D.exe
+C:\Users\pweber\source\repos\CPX400DP_AND_LD400D\CPX400DP_AND_LD400D\obj\Debug\CPX400DP_AND_LD400D.pdb

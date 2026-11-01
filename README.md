@@ -39,6 +39,25 @@ port 5025). The user interface is in German.
 | [`ld400p-mah-correction`](ld400p-mah-correction) | LD400P | The LD400P's clock often runs slow, so its mAh reading is off. Enter the measured mAh and the drift in seconds per hour, get the corrected value. |
 | [`ngl202-battery-cycling`](ngl202-battery-cycling) | R&S NGL202 | Battery cycling over the network: charge/discharge voltage and current, rest time, number of cycles; capacity, retention and SOH per cycle, CSV export. |
 
+## Screenshots
+
+Click a picture for the full size. No instrument was connected, so the readings are empty.
+
+<table>
+  <tr>
+    <td align="center"><a href="docs/screenshots/cpx400-control.png"><img src="docs/screenshots/cpx400-control.png" width="400" alt="cpx400-control: connection, output selection, parameters, step buttons and status for the CPX400DP"></a><br><code>cpx400-control</code></td>
+    <td align="center"><a href="docs/screenshots/cpx400-control-advanced.png"><img src="docs/screenshots/cpx400-control-advanced.png" width="400" alt="cpx400-control-advanced: both outputs, tracking mode and voltage ramp"></a><br><code>cpx400-control-advanced</code></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="docs/screenshots/cpx400dp-ld400p-switch.png"><img src="docs/screenshots/cpx400dp-ld400p-switch.png" width="260" alt="cpx400dp-ld400p-switch: load and supply on/off with a command log"></a><br><code>cpx400dp-ld400p-switch</code></td>
+    <td align="center"><a href="docs/screenshots/cpx400dp-ld400p-cycling.png"><img src="docs/screenshots/cpx400dp-ld400p-cycling.png" width="400" alt="cpx400dp-ld400p-cycling: both instruments, cycle times, readings, SOH and log"></a><br><code>cpx400dp-ld400p-cycling</code></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="docs/screenshots/ld400p-mah-correction.png"><img src="docs/screenshots/ld400p-mah-correction.png" width="320" alt="ld400p-mah-correction: measured mAh, drift per hour and direction"></a><br><code>ld400p-mah-correction</code></td>
+    <td align="center"><a href="docs/screenshots/ngl202-battery-cycling.png"><img src="docs/screenshots/ngl202-battery-cycling.png" width="400" alt="ngl202-battery-cycling: IP address, cycle parameters, results and status"></a><br><code>ngl202-battery-cycling</code></td>
+  </tr>
+</table>
+
 ## Download and run
 
 1. Get the `.exe` you need from the [latest release](https://github.com/TechnikWeber/bench-tools/releases/latest).

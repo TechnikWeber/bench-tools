@@ -106,7 +106,7 @@ namespace LD400P_ONOFF
         {
             this.Text = "LD400P & CPX400DP Steuerung";
             // Wider window so log can be on the right
-            this.Size = new Size(1000, 760);
+            this.ClientSize = new Size(985, 800);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -116,7 +116,7 @@ namespace LD400P_ONOFF
             {
                 Text = "LD400P (Elektronische Last)",
                 Location = new Point(10, 10),
-                Size = new Size(480, 150)
+                Size = new Size(480, 175)
             };
 
             lblPortLabelLD400P = new Label
@@ -181,7 +181,7 @@ namespace LD400P_ONOFF
             {
                 Text = "Last Steuerung",
                 Location = new Point(15, 115),
-                Size = new Size(450, 28),
+                Size = new Size(450, 52),
                 Enabled = false
             };
 
@@ -221,8 +221,8 @@ namespace LD400P_ONOFF
             grpCPX400DP = new GroupBox
             {
                 Text = "CPX400DP (Netzteil)",
-                Location = new Point(10, 170),
-                Size = new Size(480, 150)
+                Location = new Point(10, 195),
+                Size = new Size(480, 175)
             };
 
             lblPortLabelCPX400DP = new Label
@@ -287,7 +287,7 @@ namespace LD400P_ONOFF
             {
                 Text = "Ausgang 1 Steuerung",
                 Location = new Point(15, 115),
-                Size = new Size(450, 28),
+                Size = new Size(450, 52),
                 Enabled = false
             };
 
@@ -327,8 +327,8 @@ namespace LD400P_ONOFF
             grpCycle = new GroupBox
             {
                 Text = "Automatischer Zyklus",
-                Location = new Point(10, 330),
-                Size = new Size(480, 240),
+                Location = new Point(10, 380),
+                Size = new Size(480, 260),
                 Enabled = false
             };
 
@@ -484,8 +484,8 @@ namespace LD400P_ONOFF
             // ===== Messwerte / SOH Gruppe =====
             grpMeasurements = new GroupBox
             {
-                Text = "Messwerte & SOH",
-                Location = new Point(10, 580),
+                Text = "Messwerte && SOH",
+                Location = new Point(10, 650),
                 Size = new Size(480, 140),
                 Enabled = true
             };
@@ -557,7 +557,7 @@ namespace LD400P_ONOFF
             {
                 Text = "--",
                 Location = new Point(320, 100),
-                Size = new Size(100, 20),
+                Size = new Size(60, 20),
                 Font = new Font("Arial", 9, FontStyle.Bold)
             };
 
@@ -565,8 +565,8 @@ namespace LD400P_ONOFF
             btnExportCSV = new Button
             {
                 Text = "Export CSV",
-                Location = new Point(400, 96),
-                Size = new Size(70, 26),
+                Location = new Point(385, 96),
+                Size = new Size(85, 26),
                 BackColor = Color.LightSkyBlue
             };
             btnExportCSV.Click += BtnExportCSV_Click;
@@ -594,7 +594,7 @@ namespace LD400P_ONOFF
             txtLog = new TextBox
             {
                 Location = new Point(500, 35),
-                Size = new Size(470, 660),
+                Size = new Size(470, 755),
                 Multiline = true,
                 ScrollBars = ScrollBars.Vertical,
                 ReadOnly = true,

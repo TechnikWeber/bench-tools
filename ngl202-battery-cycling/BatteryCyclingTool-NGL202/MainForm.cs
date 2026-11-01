@@ -47,7 +47,7 @@ namespace BatteryCyclingTool
         {
             // Form Settings
             this.Text = "NGL202 Battery Cycling Tool";
-            this.Size = new Size(900, 750);
+            this.ClientSize = new Size(880, 770);
             this.StartPosition = FormStartPosition.CenterScreen;
 
             int yPos = 20;
@@ -75,7 +75,7 @@ namespace BatteryCyclingTool
             {
                 Text = "Zyklus-Parameter",
                 Location = new Point(10, yPos),
-                Size = new Size(860, 250)
+                Size = new Size(860, 275)
             };
 
             int paramY = 25;
@@ -90,7 +90,7 @@ namespace BatteryCyclingTool
 
             this.Controls.Add(grpParams);
 
-            yPos += 260;
+            yPos += 285;
 
             // Control Panel
             GroupBox grpControl = new GroupBox

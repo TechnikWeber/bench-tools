@@ -96,7 +96,7 @@ namespace PowerSupplyControl
             };
 
             var lblOutput = new Label { Text = "Ausgang:", Location = new Point(10, 25), AutoSize = true };
-            cmbOutput = new ComboBox { Location = new Point(120, 22), Width = 100, DropDownStyle = ComboBoxStyle.DropDownList };
+            cmbOutput = new ComboBox { Location = new Point(120, 22), Width = 140, DropDownStyle = ComboBoxStyle.DropDownList };
             cmbOutput.Items.AddRange(new object[] { "Ausgang 1 (Master)", "Ausgang 2 (Slave)" });
             cmbOutput.SelectedIndex = 0;
 
@@ -338,6 +338,10 @@ namespace PowerSupplyControl
             toolsMenu.DropDownItems.AddRange(new[] { identMenu, resetMenu, clearMenu, localMenu });
             menuStrip.Items.Add(toolsMenu);
             this.MainMenuStrip = menuStrip;
+
+            // Move the content below the menu bar instead of under it
+            foreach (Control c in this.Controls) c.Top += menuStrip.Height;
+            this.Height += menuStrip.Height;
             this.Controls.Add(menuStrip);
         }
 

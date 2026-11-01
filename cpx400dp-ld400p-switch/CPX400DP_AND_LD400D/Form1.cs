@@ -74,21 +74,21 @@ namespace CPX400DP_AND_LD400D
             cmbPortsLD400P = new ComboBox
             {
                 Location = new Point(100, 23),
-                Size = new Size(100, 25),
+                Size = new Size(90, 25),
                 DropDownStyle = ComboBoxStyle.DropDownList
             };
 
             lblBaudLabelLD400P = new Label
             {
                 Text = "Baudrate:",
-                Location = new Point(220, 25),
-                Size = new Size(80, 20)
+                Location = new Point(205, 25),
+                Size = new Size(70, 20)
             };
 
             cmbBaudRateLD400P = new ComboBox
             {
-                Location = new Point(300, 23),
-                Size = new Size(100, 25),
+                Location = new Point(275, 23),
+                Size = new Size(90, 25),
                 DropDownStyle = ComboBoxStyle.DropDownList
             };
             cmbBaudRateLD400P.Items.AddRange(new object[] { "9600", "19200", "38400", "57600", "115200" });
@@ -97,8 +97,8 @@ namespace CPX400DP_AND_LD400D
             btnConnectLD400P = new Button
             {
                 Text = "Verbinden",
-                Location = new Point(420, 20),
-                Size = new Size(55, 30),
+                Location = new Point(380, 20),
+                Size = new Size(95, 30),
                 BackColor = Color.LightGreen
             };
             btnConnectLD400P.Click += BtnConnectLD400P_Click;
@@ -106,8 +106,8 @@ namespace CPX400DP_AND_LD400D
             btnDisconnectLD400P = new Button
             {
                 Text = "Trennen",
-                Location = new Point(420, 20),
-                Size = new Size(55, 30),
+                Location = new Point(380, 20),
+                Size = new Size(95, 30),
                 BackColor = Color.LightCoral,
                 Enabled = false,
                 Visible = false
@@ -180,21 +180,21 @@ namespace CPX400DP_AND_LD400D
             cmbPortsCPX400DP = new ComboBox
             {
                 Location = new Point(100, 23),
-                Size = new Size(100, 25),
+                Size = new Size(90, 25),
                 DropDownStyle = ComboBoxStyle.DropDownList
             };
 
             lblBaudLabelCPX400DP = new Label
             {
                 Text = "Baudrate:",
-                Location = new Point(220, 25),
-                Size = new Size(80, 20)
+                Location = new Point(205, 25),
+                Size = new Size(70, 20)
             };
 
             cmbBaudRateCPX400DP = new ComboBox
             {
-                Location = new Point(300, 23),
-                Size = new Size(100, 25),
+                Location = new Point(275, 23),
+                Size = new Size(90, 25),
                 DropDownStyle = ComboBoxStyle.DropDownList
             };
             cmbBaudRateCPX400DP.Items.AddRange(new object[] { "9600", "19200", "38400", "57600", "115200" });
@@ -203,8 +203,8 @@ namespace CPX400DP_AND_LD400D
             btnConnectCPX400DP = new Button
             {
                 Text = "Verbinden",
-                Location = new Point(420, 20),
-                Size = new Size(55, 30),
+                Location = new Point(380, 20),
+                Size = new Size(95, 30),
                 BackColor = Color.LightGreen
             };
             btnConnectCPX400DP.Click += BtnConnectCPX400DP_Click;
@@ -212,8 +212,8 @@ namespace CPX400DP_AND_LD400D
             btnDisconnectCPX400DP = new Button
             {
                 Text = "Trennen",
-                Location = new Point(420, 20),
-                Size = new Size(55, 30),
+                Location = new Point(380, 20),
+                Size = new Size(95, 30),
                 BackColor = Color.LightCoral,
                 Enabled = false,
                 Visible = false

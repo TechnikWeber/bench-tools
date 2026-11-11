@@ -7,6 +7,8 @@
 
 <p align="center">
   <img alt="Status: stable" src="https://img.shields.io/badge/status-stable-brightgreen">
+  <a href="https://github.com/TechnikWeber/bench-tools/releases/latest"><img alt="Download" src="https://img.shields.io/github/v/release/TechnikWeber/bench-tools?label=download&color=2ea44f"></a>
+  <a href="https://github.com/TechnikWeber/bench-tools/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/TechnikWeber/bench-tools/total?color=blue"></a>
   <a href="https://github.com/TechnikWeber/bench-tools/actions/workflows/release.yml"><img alt="Build" src="https://github.com/TechnikWeber/bench-tools/actions/workflows/release.yml/badge.svg"></a>
   <img alt="Platform: Windows" src="https://img.shields.io/badge/platform-Windows-blue">
   <img alt="UI language: German" src="https://img.shields.io/badge/UI-Deutsch-informational">

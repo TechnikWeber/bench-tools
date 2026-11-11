@@ -63,10 +63,13 @@ Click a picture for the full size. No instrument was connected, so the readings 
 ## Download and run
 
 1. Get the `.exe` you need from the [latest release](https://github.com/TechnikWeber/bench-tools/releases/latest).
+   `SHA256SUMS` lists the checksums.
 2. Windows SmartScreen may warn because the files are not signed: *More info › Run anyway*.
 3. `ngl202-battery-cycling.exe` needs the
    [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0).
-   All other tools run on the .NET Framework 4.7.2 that ships with Windows 10 and 11.
+   On Windows on ARM take `ngl202-battery-cycling-arm64.exe` and the Arm64 runtime.
+   All other tools run on the .NET Framework 4.7.2 that ships with Windows 10 and 11
+   (on Windows on ARM too).
 
 ## Build from source
 
